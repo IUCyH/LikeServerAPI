@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE50AF0C2CCBFF8C00387ED1 /* LikeServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF092CCBFF8C00387ED1 /* LikeServer.swift */; };
+		FE50AF132CCC053E00387ED1 /* StringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF122CCC053E00387ED1 /* StringError.swift */; };
+		FE50AF152CCC058200387ED1 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF142CCC058200387ED1 /* HTTPError.swift */; };
+		FE50AF182CCC05AB00387ED1 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF172CCC05AB00387ED1 /* RequestType.swift */; };
+		FE50AF212CCC090300387ED1 /* UserDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF202CCC090300387ED1 /* UserDataController.swift */; };
+		FE50AF252CCC0BD000387ED1 /* DataControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF242CCC0BD000387ED1 /* DataControllable.swift */; };
+		FE50AF2A2CCC0F3600387ED1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF292CCC0F3600387ED1 /* User.swift */; };
+		FE50AF2D2CCC0F9100387ED1 /* GetResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF2C2CCC0F9100387ED1 /* GetResult.swift */; };
+		FE50AF2F2CCC109B00387ED1 /* GetParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50AF2E2CCC109B00387ED1 /* GetParameter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE3042FD2CB036DD004033BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE3042FF2CB036DD004033BB /* libLikeServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLikeServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE50AF092CCBFF8C00387ED1 /* LikeServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeServer.swift; sourceTree = "<group>"; };
+		FE50AF122CCC053E00387ED1 /* StringError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringError.swift; sourceTree = "<group>"; };
+		FE50AF142CCC058200387ED1 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		FE50AF172CCC05AB00387ED1 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		FE50AF202CCC090300387ED1 /* UserDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
+		FE50AF242CCC0BD000387ED1 /* DataControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataControllable.swift; sourceTree = "<group>"; };
+		FE50AF292CCC0F3600387ED1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE50AF2C2CCC0F9100387ED1 /* GetResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResult.swift; sourceTree = "<group>"; };
+		FE50AF2E2CCC109B00387ED1 /* GetParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetParameter.swift; sourceTree = "<group>"; };
+		FE50AF352CCC1FA900387ED1 /* ServerSecret.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ServerSecret.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3042FC2CB036DD004033BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3042F62CB036DD004033BB = {
+			isa = PBXGroup;
+			children = (
+				FE50AF0B2CCBFF8C00387ED1 /* LikeServer */,
+				FE3043002CB036DD004033BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3043002CB036DD004033BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3042FF2CB036DD004033BB /* libLikeServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE50AF0B2CCBFF8C00387ED1 /* LikeServer */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF222CCC098700387ED1 /* Protocol */,
+				FE50AF102CCC04E800387ED1 /* Enum */,
+				FE50AF192CCC05CB00387ED1 /* Struct */,
+				FE50AF1D2CCC085600387ED1 /* Class */,
+				FE50AF352CCC1FA900387ED1 /* ServerSecret.xcconfig */,
+			);
+			path = LikeServer;
+			sourceTree = "<group>";
+		};
+		FE50AF102CCC04E800387ED1 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF162CCC05A100387ED1 /* Data */,
+				FE50AF112CCC04F200387ED1 /* Error */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FE50AF112CCC04F200387ED1 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF122CCC053E00387ED1 /* StringError.swift */,
+				FE50AF142CCC058200387ED1 /* HTTPError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		FE50AF162CCC05A100387ED1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF172CCC05AB00387ED1 /* RequestType.swift */,
+				FE50AF2C2CCC0F9100387ED1 /* GetResult.swift */,
+				FE50AF2E2CCC109B00387ED1 /* GetParameter.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE50AF192CCC05CB00387ED1 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF2B2CCC0F3A00387ED1 /* Data */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		FE50AF1D2CCC085600387ED1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF1E2CCC088800387ED1 /* Main */,
+				FE50AF1F2CCC08B100387ED1 /* Data */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FE50AF1E2CCC088800387ED1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF092CCBFF8C00387ED1 /* LikeServer.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FE50AF1F2CCC08B100387ED1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF202CCC090300387ED1 /* UserDataController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE50AF222CCC098700387ED1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF232CCC09CE00387ED1 /* Data */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FE50AF232CCC09CE00387ED1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF242CCC0BD000387ED1 /* DataControllable.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE50AF2B2CCC0F3A00387ED1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE50AF292CCC0F3600387ED1 /* User.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3042FE2CB036DD004033BB /* LikeServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3043062CB036DD004033BB /* Build configuration list for PBXNativeTarget "LikeServer" */;
+			buildPhases = (
+				FE3042FB2CB036DD004033BB /* Sources */,
+				FE3042FC2CB036DD004033BB /* Frameworks */,
+				FE3042FD2CB036DD004033BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeServer;
+			packageProductDependencies = (
+			);
+			productName = LikeServer;
+			productReference = FE3042FF2CB036DD004033BB /* libLikeServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3042F72CB036DD004033BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FE3042FE2CB036DD004033BB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FE3042FA2CB036DD004033BB /* Build configuration list for PBXProject "LikeServer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3042F62CB036DD004033BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE3043002CB036DD004033BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3042FE2CB036DD004033BB /* LikeServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3042FB2CB036DD004033BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE50AF2D2CCC0F9100387ED1 /* GetResult.swift in Sources */,
+				FE50AF212CCC090300387ED1 /* UserDataController.swift in Sources */,
+				FE50AF0C2CCBFF8C00387ED1 /* LikeServer.swift in Sources */,
+				FE50AF152CCC058200387ED1 /* HTTPError.swift in Sources */,
+				FE50AF2F2CCC109B00387ED1 /* GetParameter.swift in Sources */,
+				FE50AF132CCC053E00387ED1 /* StringError.swift in Sources */,
+				FE50AF2A2CCC0F3600387ED1 /* User.swift in Sources */,
+				FE50AF182CCC05AB00387ED1 /* RequestType.swift in Sources */,
+				FE50AF252CCC0BD000387ED1 /* DataControllable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE3043042CB036DD004033BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE50AF352CCC1FA900387ED1 /* ServerSecret.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3043052CB036DD004033BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE50AF352CCC1FA900387ED1 /* ServerSecret.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3043072CB036DD004033BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE3043082CB036DD004033BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3042FA2CB036DD004033BB /* Build configuration list for PBXProject "LikeServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3043042CB036DD004033BB /* Debug */,
+				FE3043052CB036DD004033BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3043062CB036DD004033BB /* Build configuration list for PBXNativeTarget "LikeServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3043072CB036DD004033BB /* Debug */,
+				FE3043082CB036DD004033BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3042F72CB036DD004033BB /* Project object */;
+}

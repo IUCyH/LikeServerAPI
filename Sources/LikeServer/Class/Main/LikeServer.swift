@@ -8,7 +8,7 @@
 import Foundation
 
 public final class LikeServer {
-    @MainActor public static let shared: LikeServer = LikeServer()
+    nonisolated(unsafe) public static let shared: LikeServer = LikeServer()
     private var _defaultURL: URLComponents = URLComponents()
     private let dataControllers: [RequestType: DataControllable] = [
         .users: UserDataController()
@@ -23,7 +23,6 @@ public final class LikeServer {
     }
     
     @available(iOS 13.0.0, *)
-    @MainActor
     public func get(_ type: RequestType, parameter: GetParameter) async throws -> GetResult {
         let dataController = dataControllers[type]!
         _defaultURL = try dataController.makeURL(parameter)

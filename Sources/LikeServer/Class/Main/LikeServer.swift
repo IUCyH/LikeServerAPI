@@ -22,6 +22,7 @@ public final class LikeServer {
         _defaultURL.host = domain
     }
     
+    @MainActor
     @available(iOS 13.0.0, *)
     public func get(_ type: RequestType, parameter: GetParameter) async throws -> GetResult {
         let dataController = dataControllers[type]!
